@@ -16,11 +16,15 @@ namespace testing1
         {
             InitializeComponent();
         }
-
+        public void h_start()
+        {
+            Console.WriteLine("i'm base if 27 line is gone?");
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             Console.WriteLine("hello github");
             Console.WriteLine("i'm verry verry good");
+            
 
         }
     }
